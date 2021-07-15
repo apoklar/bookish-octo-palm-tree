@@ -1,6 +1,6 @@
 const Manager = require('../lib/Manager');
 
-test("Can get office number", () => {
+test("gets office number", () => {
     const testValue = "officeNumber";
     const e = new Manager("Foo", 1, "test@test.com", testValue);
     expect(e.officeNumber).toBe(testValue);
@@ -12,7 +12,7 @@ test("getRole() should return \"Manager\"", () => {
     expect(e.getRole()).toBe(testValue);
 });
   
-test("Can get officeNumber via getofficeNumber()", () => {
+test("gets officeNumber via getofficeNumber()", () => {
     const testValue = "officeNumber";
     const e = new Manager("Foo", 1, "test@test.com", testValue);
     expect(e.getOfficeNumber()).toBe(testValue);
