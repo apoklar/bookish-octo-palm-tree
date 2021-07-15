@@ -1,0 +1,28 @@
+{
+  "name": "bookish-octo-palm-tree",
+  "version": "1.0.0",
+  "description": "Team Profile Generator",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apoklar/bookish-octo-palm-tree.git"
+  },
+  "author": "Andrea Poklar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apoklar/bookish-octo-palm-tree/issues"
+  },
+  "homepage": "https://github.com/apoklar/bookish-octo-palm-tree#readme",
+  "dependencies": {
+    "inquirer": "^8.1.2"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
