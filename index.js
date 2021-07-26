@@ -153,19 +153,6 @@ const createEmployee = () => {
         },
         {
             type: 'input',
-            name: 'github',
-            message: "Enter employee github username.",
-            when: (input) => input.role === "Engineer",
-            validate: nameInput => {
-                if (nameInput ) {
-                    return true;
-                } else {
-                    console.log ("Please enter the employee's github username!")
-                }
-            }
-        },
-        {
-            type: 'input',
             name: 'school',
             message: "Enter the intern's current school.",
             when: (input) => input.role === "Intern",
